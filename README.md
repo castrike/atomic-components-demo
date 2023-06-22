@@ -14,21 +14,21 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Demo goodies
 
-## Learn More
+The goal of this demo is to showcase workflows on approaching atomic concepts and development patterns.
 
-To learn more about Next.js, take a look at the following resources:
+When we look at a design, what are we building?
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+What we are buildings are building blocks that can be reused across multiple screens regardless of where the data comes from. 
+Moreover, these blocks can be tested in isolation allowing us to confidently build user interfaces and experiences that meet the expectations and make our jobs easier.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+To get started I decided to look into building a page that loads a bunch of sneakers in a grid system. 
+Sneakers will be placed in a "sneaker box" to which on hover, the content will move up a bit.
 
-## Deploy on Vercel
+As part of the second part, we would like to expand to allow for the sneaker boxes to have different variations; The variations will be allowing for types that show case different colors:
+Default: white background / black text
+Off-white: orange 200 background / stone 800 text
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Lastly, let's create a shoe box preview. This box will blur its content and only showcase while on hover.
