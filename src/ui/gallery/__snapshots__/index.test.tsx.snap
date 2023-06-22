@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Sneaker Box Renders 1`] = `
+<div>
+  <ul
+    class="grid grid-cols-3 max-w-xl mx-auto gap-4"
+  >
+    <li>
+      <p>
+        test
+      </p>
+    </li>
+    <li>
+      <p>
+        test
+      </p>
+    </li>
+    <li>
+      <p>
+        test
+      </p>
+    </li>
+  </ul>
+</div>
+`;
